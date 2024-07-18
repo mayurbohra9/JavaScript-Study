@@ -1,0 +1,48 @@
+
+// Primitive Datatypes (7 types) - String, Number, Boolean, Null, Undefined, Symbol, BigInt
+
+// Example - 
+
+const string = "ABC";
+
+const number = 10;
+
+const boolean = true;
+
+const Null = null;
+
+let Undefined;
+
+const symbol = Symbol('123');
+const symbol_1 = Symbol('123');
+
+// console.log(symbol == symbol_1);
+// console.log(symbol === symbol_1);
+
+const big_int = 68723678262173798n;
+
+// Non Primitive/Reference Datatypes - Array, Objects, Functions
+
+const array = ["A", "B", "C"];
+
+
+
+const Object = {
+    name: "Mayur",
+    age: 23
+}
+
+
+
+const Function = function(){
+    console.log("Hello World");
+}
+
+// Function called function object
+
+Function();
+
+
+// to know datatype of variables - 
+
+console.log(typeof Object);
